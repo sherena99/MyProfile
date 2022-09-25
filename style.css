@@ -245,7 +245,12 @@ nav > ul > li > a:hover {
     position: absolute;
 
 }
-#education>img{}
+#education>img{
+    width: 70%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 6%;
+}
 
 
 
