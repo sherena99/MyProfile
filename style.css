@@ -114,7 +114,6 @@ nav > ul > li > a:hover {
 }
 
 
-
 .about_me {
     height: 100vh;
     background-color: black;
@@ -223,70 +222,79 @@ nav > ul > li > a:hover {
     position: relative;
 
 }
-#education>div{
+
+#education > div {
     position: absolute;
     top: 25%;
     left: 5%;
     z-index: 1;
 
 }
-#education>div>h1:nth-child(1){
+
+#education > div > h1:nth-child(1) {
     font-size: 60px;
-    color: #d35400 ;
+    color: #d35400;
 }
-#education>div>h1>span{
+
+#education > div > h1 > span {
     font-size: 60px;
     color: #7f8c8d;
 }
-#education>div>h1:nth-child(2){
+
+#education > div > h1:nth-child(2) {
     font-size: 60px;
     color: white;
     padding-left: 20%;
     position: absolute;
 
 }
-#education>img{
+
+#education > img {
     width: 70%;
     height: 80%;
     margin-left: 20%;
     margin-top: 6%;
 }
 
-#skills{
+#skills {
     height: 100vh;
     position: relative;
     background-color: black;
 }
 
-.skill_topic{
+.skill_topic {
     position: absolute;
     top: 25%;
     left: 5%;
 
 
 }
-.skill_topic>h1{
+
+.skill_topic > h1 {
     font-size: 60px;
-    color: #d35400 ;
+    color: #d35400;
 }
-.skill_topic>h1>span{
+
+.skill_topic > h1 > span {
     font-size: 60px;
     color: white;
 }
-.skill_topic>h3{
+
+.skill_topic > h3 {
     font-size: 20px;
     color: white;
     padding-left: 15px;
 
 }
 
-.skill_set{
+.skill_set {
     height: 50%;
     width: 100%;
     position: absolute;
     bottom: 70px;
 }
-.container{
+
+.container {
     position: absolute;
     height: 60%;
     width: 100%;
@@ -299,7 +307,8 @@ nav > ul > li > a:hover {
     justify-content: center;
     align-items: center;
 }
-.container>div{
+
+.container > div {
     position: relative;
     height: 210px;
     width: 150px;
@@ -307,7 +316,8 @@ nav > ul > li > a:hover {
     margin-right: 15px;
 
 }
-.container>div>img{
+
+.container > div > img {
     left: 0;
     right: 0;
     top: 0;
@@ -319,7 +329,8 @@ nav > ul > li > a:hover {
     height: 96px;
     width: 96px;
 }
-.container>div>h3{
+
+.container > div > h3 {
     color: white;
     /*position: absolute;*/
     bottom: 0;
@@ -327,28 +338,32 @@ nav > ul > li > a:hover {
     margin-top: 170px;
 }
 
-#projects_topic{
+#projects_topic {
     height: 90vh;
     position: relative;
     background-color: black;
 
 }
-.my_project{
+
+.my_project {
     position: absolute;
     top: 25%;
     left: 5%;
 
 
 }
-.my_project>h1{
+
+.my_project > h1 {
     font-size: 60px;
-    color: #d35400 ;
+    color: #d35400;
 }
-.my_project>h1>span{
+
+.my_project > h1 > span {
     font-size: 60px;
     color: white;
 }
-.my_project>h3{
+
+.my_project > h3 {
     font-size: 20px;
     color: white;
     padding-left: 15px;
@@ -361,22 +376,26 @@ nav > ul > li > a:hover {
     background-color: black;
 
 }
-.contact_me{
+
+.contact_me {
     position: absolute;
     top: 18%;
     left: 5%;
 
 
 }
-.contact_me>h1{
+
+.contact_me > h1 {
     font-size: 60px;
-    color: #d35400 ;
+    color: #d35400;
 }
-.contact_me>h1>span{
+
+.contact_me > h1 > span {
     font-size: 60px;
     color: white;
 }
-.contact_me>p{
+
+.contact_me > p {
     margin-top: 10px;
     font-family: Poppins;
     font-size: 20px;
@@ -384,13 +403,15 @@ nav > ul > li > a:hover {
     padding-left: 40px;
 
 }
-.contact{
+
+.contact {
     width: 100%;
     height: 50%;
     position: absolute;
     bottom: 12%;
 }
-.contact_box{
+
+.contact_box {
     position: absolute;
     width: 70%;
     height: 100%;
@@ -402,32 +423,64 @@ nav > ul > li > a:hover {
     margin: auto;
     display: flex;
     justify-content: center;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
 
 }
-.contact_box>div{
 
+.contact_box > div {
+    position: relative;
     width: 75%;
     height: 80%;
 }
-.contact_box>div>h2{
-    margin-top: 8%;
+
+.contact_box > div > h2 {
+    margin-top: 4%;
     color: white;
     display: inline-block;
     margin-right: 30px;
 }
-.contact_box>div>input{
+
+.contact_box > div > input {
     width: 80%;
     height: 30px;
+    background-color: black;
+    border: 1px solid white;
+
+}
+
+.contact_box > div:nth-child(1) > input {
+    margin-left: 3%;
+}
+
+.contact_box > div:nth-child(2) > input {
+    margin-left: 2.5%;
+}
+
+.contact_box > div:nth-child(3) > input {
+    margin-left: 1%;
+}
+
+.contact_box > div:nth-child(5) > button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 
 }
 
 
-.socialMedia_links{
+.socialMedia_links {
     position: absolute;
     bottom: 0;
     height: 12%;
+    align-items: center;
+}
+
+.socialMedia{
+
 }
 
 
