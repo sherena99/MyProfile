@@ -252,6 +252,81 @@ nav > ul > li > a:hover {
     margin-top: 6%;
 }
 
+#skills{
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+.skill_topic{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+
+
+}
+.skill_topic>h1{
+    font-size: 60px;
+    color: #d35400 ;
+}
+.skill_topic>h1>span{
+    font-size: 60px;
+    color: white;
+}
+.skill_topic>h3{
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+
+}
+
+.skill_set{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+}
+.container{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>div{
+    position: relative;
+    height: 210px;
+    width: 150px;
+    border: 2px solid red;
+    margin-right: 15px;
+
+}
+.container>div>img{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    height: 96px;
+    width: 96px;
+}
+.container>div>h3{
+    color: white;
+    /*position: absolute;*/
+    bottom: 0;
+    text-align: center;
+    margin-top: 170px;
+}
+
 
 
 
