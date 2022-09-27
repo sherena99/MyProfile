@@ -18,6 +18,8 @@ header {
     display: none;
 }
 
+
+/*       Navigation part CSS       */
 nav {
     display: flex;
     justify-content: end;
@@ -53,6 +55,8 @@ nav > ul > li > a:hover {
     background: #181818;
     transition: 0.3s;
 }
+
+/*                             Main Container                  */
 
 .main-container {
     width: 50%;
@@ -114,13 +118,14 @@ nav > ul > li > a:hover {
 }
 
 
+/*                          About Me CSS                       */
+
+
 .about_me {
     height: 100vh;
     background-color: black;
     position: relative;
     display: flex;
-
-
 }
 
 .about_me > aside {
@@ -131,14 +136,11 @@ nav > ul > li > a:hover {
 
 .about_me > aside:nth-child(1) {
     width: 30%;
-
-
 }
 
 .about_me > aside:nth-child(2) {
     width: 70%;
     color: white;
-
 }
 
 
@@ -191,7 +193,6 @@ nav > ul > li > a:hover {
 }
 
 .cv {
-
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -215,6 +216,10 @@ nav > ul > li > a:hover {
     background-color: #fd79a8;
 
 }
+
+
+/*                          Education And Experience CSS                       */
+
 
 #education {
     height: 100vh;
@@ -255,6 +260,11 @@ nav > ul > li > a:hover {
     margin-left: 20%;
     margin-top: 6%;
 }
+
+
+/*                          Skills CSS                       */
+
+
 
 #skills {
     height: 100vh;
@@ -338,6 +348,10 @@ nav > ul > li > a:hover {
     margin-top: 170px;
 }
 
+
+/*                          My Projects CSS                       */
+
+
 #projects_topic {
     height: 90vh;
     position: relative;
@@ -377,6 +391,10 @@ nav > ul > li > a:hover {
 
 }
 
+
+/*                          Contact Me CSS                       */
+
+
 .contact_me {
     position: absolute;
     top: 18%;
@@ -404,83 +422,70 @@ nav > ul > li > a:hover {
 
 }
 
-.contact {
+.contact-contain{
+    height: 68%;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    height: 50%;
-    position: absolute;
-    bottom: 12%;
-}
 
-.contact_box {
-    position: absolute;
-    width: 70%;
-    height: 100%;
-    border: 2px solid white;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-
 }
 
-.contact_box > div {
-    position: relative;
-    width: 75%;
-    height: 80%;
-}
+.contact-contain>div:nth-child(1){
+    border: 2px solid white;
+    width: 70%;
+    height: 60%;
 
-.contact_box > div > h2 {
-    margin-top: 4%;
-    color: white;
-    display: inline-block;
-    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
-
-.contact_box > div > input {
-    width: 80%;
-    height: 30px;
-    background-color: black;
+.contact-contain>div:nth-child(1)>input{
+    width: 60%;
+    height: 8%;
+    background: black;
     border: 1px solid white;
+    color: white;
+}
+
+.contact-contain>div:nth-child(1)>input:nth-child(4){
+    height: 15%;
+}
+
+.btn-send{
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.contact-contain>div:nth-child(2){
+    display: flex;
+    position: relative;
+}
+
+.contact-contain>div:nth-child(2)>li{
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    list-style: none;
+
+    /*background: red;*/
 
 }
 
-.contact_box > div:nth-child(1) > input {
-    margin-left: 3%;
-}
+.contact-contain>div:nth-child(2)>li>a>img{
+    width: 100%;
+    height: 100%;
 
-.contact_box > div:nth-child(2) > input {
-    margin-left: 2.5%;
-}
 
-.contact_box > div:nth-child(3) > input {
-    margin-left: 1%;
-}
-
-.contact_box > div:nth-child(5) > button {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
 
 }
-
-
-.socialMedia_links {
-    position: absolute;
-    bottom: 0;
-    height: 12%;
-    align-items: center;
-}
-
-.socialMedia{
-
+.contact-contain>div:nth-child(3)>h4{
+    color: white;
 }
 
 
