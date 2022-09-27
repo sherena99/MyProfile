@@ -384,6 +384,184 @@ nav > ul > li > a:hover {
 
 }
 
+.projects{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+#container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid ;
+    place-items: center
+}
+
+#slider-container {
+    height: 300px;
+    width: 85vw;
+    max-width: 1400px;
+    /*background: #54d5e4;*/
+    /*box-shadow: 5px 5px 8px gray inset;*/
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#slider-container .btn {
+    position: absolute;
+    top: calc(50% - 30px);
+    height: 30px;
+    width: 30px;
+    border-left: 8px solid #d35400;
+    border-top: 8px solid #d35400;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+#slider-container .btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+
+}
+
+#slider-container .btn.inactive {
+    border-color: rgb(153, 121, 126)
+}
+
+#slider-container .btn:first-of-type {
+    transform: rotate(-45deg);
+    left: 10px
+}
+
+#slider-container .btn:last-of-type {
+    transform: rotate(135deg);
+    right: 10px;
+}
+
+#slider-container #slider {
+    display: flex;
+    width: 1000%;
+    height: 100%;
+    transition: all .5s;
+}
+
+#slider-container #slider .slide {
+    height: 100%;
+    margin: auto 10px;
+    /*background-color: #a847a4;*/
+    box-shadow: 1px 1px 2px 1px white, -1px -1px 2px 1px white;
+    display: grid;
+    place-items: center;
+}
+
+.slide>button{
+    width: 80px;
+    height: 30px;
+    background-color: #d35400;
+    cursor: pointer;
+    border: 0px;
+    color: white;
+
+}
+.slide>button:hover{
+    transform: scale(1.2);
+}
+
+/*              Project Slider        */
+
+.slide:nth-child(1) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/hotelBlue.png");
+}
+.slide:nth-child(2) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(3) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(4) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(5) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(6) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(7) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(8) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(9) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+.slide:nth-child(10) {
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/images/icons8-instagram-old-100 (1).png");
+}
+
+
+@media only screen and (min-width: 1100px) {
+
+    #slider-container #slider .slide {
+        width: calc(2.5% - 20px);
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    #slider-container #slider .slide {
+        width: calc(3.3333333% - 20px);
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    #slider-container #slider .slide {
+        width: calc(5% - 20px);
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    #slider-container #slider .slide {
+        width: calc(10% - 20px);
+    }
+
+}
+
+
+
+
+
 
 /*                          Contact Me CSS                       */
 
