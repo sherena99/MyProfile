@@ -217,6 +217,14 @@ nav > ul > li > a:hover {
     background-color: #fd79a8;
 
 }
+.aboutMe_trangle{
+    width: 380px;
+    height: 230px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("assets/images/aboutmeTrangle.png");
+}
 
 /*.aboutMe_image{*/
 /*    width: 20px;*/
@@ -268,6 +276,11 @@ nav > ul > li > a:hover {
     height: 80%;
     margin-left: 20%;
     margin-top: 6%;
+}
+
+.education_trangle{
+
+
 }
 
 
