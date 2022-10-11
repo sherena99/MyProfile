@@ -375,6 +375,16 @@ nav > ul > li > a:hover {
     margin-top: 170px;
 }
 
+.skill_trangle{
+    width: 320px;
+    height: 220px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("assets/images/skillsTrangle.png");
+
+}
+
 
 /*                          My Projects CSS                       */
 
