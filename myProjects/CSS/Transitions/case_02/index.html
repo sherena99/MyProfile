@@ -2,64 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-  <style>
-    body{
-      background-color: #0772ed;
-    }
-    body #circle{
+    <title>Case Two</title>
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/fonts/css/all.css" rel="stylesheet">
 
-      height: 300px;
-      border-radius: 100%;
-      left: 0;
-      top: 1%;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-      position: absolute;
-      background-color: #646665;
+    <style>
+        body {
+            background-color: black;
+        }
 
-    }
-    #circle h1{
-      width: max-content;
-      height: max-content;
-      color: white;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      position: absolute;
-      margin: auto;
-    }
+        section {
+            width: 300px;
+            height: 300px;
+            background-color: #310202;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border-radius: 100%;
 
-    #circle:hover::after{
-      cursor: pointer;
-      transition: all 500ms;
-      transform: rotate(360deg);
-      /* position: relative; */
+        }
 
-    }
+        section > h1 {
+            color: white;
+            text-align: center;
+            margin-top: 130px;
+        }
 
-    #circle::after{
-      position: absolute;
-      border: 16px solid white;
-      border-top: 16px solid red;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      border-radius: 100%;
-      transition: all 500ms;
-      content: '';
-    }
+        section::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border: 15px solid white;
+            border-top: 15px solid #ff253a;
+            border-radius: 100%;
 
-  </style>
+        }
+        section:hover::after{
+            transform: rotate(365deg);
+            transition: all 3s;
+            cursor: pointer;
+        }
+
+    </style>
 </head>
 <body>
-<div id="circle">
-  <h1>RWAD</h1>
-</div>
-
+<section>
+    <h1>RWAD</h1>
+    <!--    Cosmetic Elements-->
+</section>
 
 </body>
 </html>
